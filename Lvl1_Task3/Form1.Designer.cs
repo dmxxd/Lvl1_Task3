@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -7,7 +7,7 @@ namespace Lvl1_Task3
     partial class Form1
     {
         private System.ComponentModel.IContainer components = null;
-        private Button btnGenerate;
+        private Button btnCreate;
         private Button btnClear;
         private ListBox listBoxArray;
         private ListBox listBoxEven;
@@ -31,7 +31,7 @@ namespace Lvl1_Task3
 
         private void InitializeComponent()
         {
-            this.btnGenerate = new Button();
+            this.btnCreate = new Button();
             this.btnClear = new Button();
             this.listBoxArray = new ListBox();
             this.listBoxEven = new ListBox();
@@ -53,13 +53,13 @@ namespace Lvl1_Task3
             this.label1.TabIndex = 0;
             this.label1.Text = "Подсчет четных и нечетных";
 
-            this.btnGenerate.Location = new Point(15, 40);
-            this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new Size(100, 30);
-            this.btnGenerate.TabIndex = 1;
-            this.btnGenerate.Text = "Сгенерировать";
-            this.btnGenerate.UseVisualStyleBackColor = true;
-            this.btnGenerate.Click += new EventHandler(this.btnGenerate_Click);
+            this.btnCreate.Location = new Point(15, 40);
+            this.btnCreate.Name = "btnGenerate";
+            this.btnCreate.Size = new Size(100, 30);
+            this.btnCreate.TabIndex = 1;
+            this.btnCreate.Text = "Сгенерировать";
+            this.btnCreate.UseVisualStyleBackColor = true;
+            this.btnCreate.Click += new EventHandler(this.btnCreate_Click);
 
             this.btnClear.Location = new Point(130, 40);
             this.btnClear.Name = "btnClear";
@@ -147,7 +147,7 @@ namespace Lvl1_Task3
             this.Controls.Add(this.listBoxArray);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnClear);
-            this.Controls.Add(this.btnGenerate);
+            this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Подсчет четных и нечетных";
