@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +19,7 @@ namespace Lvl1_Task3
             InitializeComponent();
         }
 
-        private void btnGenerate_Click(object sender, EventArgs e)
+        private void btnCreate_Click(object sender, EventArgs e)
         {
             int[] array = new int[15];
             listBoxArray.Items.Clear();
